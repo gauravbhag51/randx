@@ -1,0 +1,19 @@
+.currency{
+    margin-top: 5px;
+}
+.currency_row{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.currency_table{
+    width:100%;
+}
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    border:1px solid black;
+}

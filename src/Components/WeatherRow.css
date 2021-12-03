@@ -1,0 +1,14 @@
+.row{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row_temp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row>*{
+    width:20%;
+}

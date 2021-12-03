@@ -1,0 +1,23 @@
+
+*{
+    box-sizing: border-box;
+}
+.main{
+    height:100%;
+    width:100vw;
+    display: flex;
+    padding:5px;
+    justify-content: space-around;
+}
+.weather{
+    /* margin:5px; */
+    width:45%;
+}
+.right{
+    /* margin:5px; */
+    width:45%;
+    overflow: hidden;
+}
+.right>*{
+    width:100%;
+}
