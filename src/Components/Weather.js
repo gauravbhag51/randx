@@ -43,7 +43,7 @@ else if(fetched===true)
             {/* {console.log(Date(current.dt).split(" "))} */}
             <p>{getDate()}</p>
             <h1>{location.city}, {location.country}</h1>
-            <h3> <img src={`http://openweathermap.org/img/wn/${current?.weather[0]?.icon}@2x.png`} alt="Not available" align="center"/> {current?.temp}&#176;C</h3>
+            <h3> <img src={`https://openweathermap.org/img/wn/${current?.weather[0]?.icon}@2x.png`} alt="Not available" align="center"/> {current?.temp}&#176;C</h3>
             <button onClick={()=>setShowDaily(!showDaily)}>{showDaily?"Hide Future Forecast": "Show Future Firecast"}</button>
             {showDaily && daily.map((weather,i)=>{
                 // console.log(weather);
