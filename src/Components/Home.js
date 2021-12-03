@@ -21,7 +21,7 @@ function Home(){
     }
 
     const getCountry=(lat,lan)=>{
-        fetch(`http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lan}&limit=1&appid=e22162a875a2489b09e37b589c3b3b0a`)
+        fetch(`https://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lan}&limit=1&appid=e22162a875a2489b09e37b589c3b3b0a`)
         .then(response => response.json())
             .then(data => {
                 setLocation({
